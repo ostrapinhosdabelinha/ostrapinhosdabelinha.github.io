@@ -12,8 +12,8 @@
 		<h1 class="home">Os Trapinhos Da Belinha</h1>
 		<hr>
 		<div class="links">
-			<a class="link1" href="tapetes.html">Tapetes</a>
-			<a class="link2" href="compra.html">Compra</a>
+			<a class="link1" href="tapetes">Tapetes</a>
+			<a class="link2" href="compra">Compra</a>
 		</div>
 		<hr>
 	</body>
