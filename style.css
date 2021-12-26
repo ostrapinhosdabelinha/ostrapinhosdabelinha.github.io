@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+	--font-1: 'Twinkle Star', cursive;
+	--font-2: 'Pacifico', cursive;
+	--background-1: #CAB8ED;
+	--background-2: #9F91BA;
+	--color-1: #574B6D;
+	-moz-osx-font-smoothing: grayscale;
+  	-webkit-font-smoothing: antialiased;
+	font-smooth: never;
+	text-rendering: optimizeLegibility;
+	font-family: var(--font);
+	line-height: 1.50;
+	width: 100%;
+	height: auto;
+	background-color: var(--background-1);
+
+	background-color: #cab8ed;
+	opacity: 1;
+	background-image:  radial-gradient(#BDACDE 8px, transparent 2px), radial-gradient(#BDACDE 4px, #cab8ed 2px);
+	background-size: 80px 80px;
+	background-position: 0 0,40px 40px;
+}
+
+::selection {
+	color: var(--background-1);
+	background: var(--color-1);
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--background-1);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--background-2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--color-1);
+}
+
+body {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+a:link {
+	color: var(--color-1);
+	text-decoration: none;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
+a:visited {
+	color: var(--color-1);
+}
+
+a:hover {
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	text-shadow: 0px 0px 10px var(--background-2);
+	color: var(--background-2);
+}
+
+a:active {
+	color: var(--color-1);
+}
+
+hr {
+	border: 1px solid var(--background-2);
+	margin-left: -5%;
+	margin-right: -5%;
+	margin: 2%;
+}
+
+h1 {
+	font-size: 200%;
+	text-align: center;
+	color: var(--color-1);
+	font-family: var(--font-2);
+	font-weight: normal;
+}
+
+h1.home {
+	font-size: 300%;
+	text-align: center;
+	font-family: var(--font-1);
+	font-weight: bold;
+}
+
+h1.link {
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	font-size: 200%;
+	text-align: center;
+	font-family: var(--font-2);
+}
+
+h1.link:hover {
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	text-shadow: 0px 0px 10px var(--background-2);
+	color: var(--background-2);
+}
+
+p {
+	font-family: var(--font-2);
+	color: var(--color-1);
+	font-size: 125%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+p.center {
+	text-align: center;
+}
+
+p.images {
+	display: block;
+	margin-top: -20%;
+	margin-bottom: 20%;
+}
+
+img {
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	width: 65%;
+	height: 65%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 20%;
+}
+
+img:hover {
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	box-shadow: 0px 0px 70px var(--background-2);
+}
+
+div {
+	text-align: center;
+}
+
+div.images {
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+}
+
+div.links {
+	font-size: 200%;
+	text-align: center;
+	font-family: var(--font-2);
+}
+
+a.link1 {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+a.link2 {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+a.link3 {
+	padding-left: 2%;
+	padding-right: 2%;
+}
