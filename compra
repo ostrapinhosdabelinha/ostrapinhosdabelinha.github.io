@@ -11,7 +11,7 @@
 	<body>
 		<h1 class="home">Os Trapinhos Da Belinha</h1>
 		<hr>
-		<a href="index.html">
+		<a href="index">
 			<h1 class="link">Voltar</h1>
 		</a>
 		<hr>
